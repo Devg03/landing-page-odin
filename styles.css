@@ -131,7 +131,8 @@ body {
 
 .quote-container {
     display: flex;
-    padding: 50px;
+    padding: 150px;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -139,6 +140,14 @@ body {
 
 .quote {
     font-size: 36px;
+    max-width: 700px;
     font-style: italic;
     color: #1F2937
+}
+
+.author {
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-end;
+    font-family: 'Dancing Script', cursive;
 }

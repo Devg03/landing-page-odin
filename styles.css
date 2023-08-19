@@ -153,8 +153,40 @@ body {
 }
 
 
-/* FOR FOOTER */
+/* FOR SEMI-FOOTER */
 
+.semi-footer {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 100px;
+    color: white;
+    flex-direction: column;
+    border-radius: 15px; 
+}
+
+.semifoot-header {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.semifoot-subtext {
+    font-size: 30px;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+}
+
+.semifoot-button {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
+    background-color: #3882f6;
+    font-family: 'Barriecito', cursive;
+}
+
+/* FOR FOOTER */
 .footer {
     display: flex;
     padding: 30px;

@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.om/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* font-family: 'Barriecito', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Acme', sans-serif; */
+/* font-family: 'Bebas Neue', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +16,76 @@
 li, a {
     list-style: none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FOR HERO */
+.hero, .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;    
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-links {
+    gap: 25px;
+    display: flex;
+    font-size: 18px;
+}
+
+.title, .hero-links {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero-content > .left {
+    max-width: 400px;
+    padding-right: 25px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-family: 'Acme', sans-serif;
+}
+
+.sub {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive; 
+}
+
+.sign-up {
+    font-family: 'Barriecito', cursive;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    width: 75px;
+    background-color: #3882f6;
+}
+
+.hero-img {
+    box-shadow: 5px 5px 3px black;
+}
+

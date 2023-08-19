@@ -71,6 +71,7 @@ body {
 
 .sub {
     font-size: 18px;
+    color: #E5E7EB;
     padding-bottom: 15px;
     font-family: 'Dancing Script', cursive; 
 }
@@ -89,3 +90,55 @@ body {
     box-shadow: 5px 5px 3px black;
 }
 
+
+/* FOR INFORMATION CENTER */
+.info-block {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    gap: 150px;
+    padding: 30px;
+}
+
+.infoimg {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img-text {
+    max-width: 200px;
+}
+
+.image-text {
+    display: flex;
+    gap: 250px;
+    font-family: 'Acme', sans-serif;
+}
+
+/* FOR QUOTE SECTION */
+
+.quote-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}

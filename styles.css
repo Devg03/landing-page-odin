@@ -156,31 +156,34 @@ body {
 /* FOR SEMI-FOOTER */
 
 .semi-footer {
-    display: flex;
     background-color: #3882f6;
-    padding: 50px;
-    margin: 100px;
+    padding: 30px;
+    margin: 200px;
     color: white;
+    display: flex;
     flex-direction: column;
+    width: auto;
     border-radius: 15px; 
 }
 
 .semifoot-header {
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
 .semifoot-subtext {
-    font-size: 30px;
-    display: flex;
+    font-size: 50px;
     font-family: 'Dancing Script', cursive;
 }
 
 .semifoot-button {
     color: white;
     border-radius: 10px;
-    padding: 10px 24px;
+    padding: 50px;
     font-weight: bold;
+    width: 300px;
+    float: right;
+    font-size: 30px;
     border: 2px solid #E5E7EB;
     background-color: #3882f6;
     font-family: 'Barriecito', cursive;

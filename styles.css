@@ -13,7 +13,8 @@
     padding: 0;
 }
 
-li, a {
+li,
+a {
     list-style: none;
 }
 
@@ -24,9 +25,10 @@ body {
 
 
 /* FOR HERO */
-.hero, .footer {
+.hero,
+.footer {
     color: #F9FAF8;
-    background-color: #1F2937;    
+    background-color: #1F2937;
 }
 
 .hero {
@@ -47,7 +49,8 @@ body {
     font-size: 18px;
 }
 
-.title, .hero-links {
+.title,
+.hero-links {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -59,7 +62,7 @@ body {
     padding-top: 50px;
 }
 
-.hero-content > .left {
+.hero-content>.left {
     max-width: 400px;
     padding-right: 25px;
 }
@@ -73,16 +76,17 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 15px;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Dancing Script', cursive;
 }
 
 .sign-up {
     font-family: 'Barriecito', cursive;
     font-weight: bold;
     color: white;
-    border-radius: 5px;
-    padding: 7px;
-    width: 75px;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    border: 2px solid #E5E7EB;
     background-color: #3882f6;
 }
 
@@ -163,7 +167,7 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 .semifoot-header {
